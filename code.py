@@ -50,7 +50,6 @@ def predict_sarcasm(comment):
         return f"An error occurred: {str(e)}"
 
 
-# # Setup Gradio interface
 # iface = gr.Interface(
 #     fn=predict_sarcasm,
 #     inputs=gr.inputs.Textbox(lines=2, placeholder="Enter a comment..."),
@@ -59,7 +58,6 @@ def predict_sarcasm(comment):
 #     description="Enter a sentence to predict if it is sarcastic or not."
 # )
 
-# # Run the interface
 # if __name__ == '__main__':
 #     iface.launch()
 
